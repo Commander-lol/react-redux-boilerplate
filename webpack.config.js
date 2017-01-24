@@ -41,7 +41,7 @@ const config = {
 				test: /\.s?css$/,
 				loaders: [
 					'style',
-					'css?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]!sass!postcss-loader'
+					'css?modules&importLoaders=1&localIdentName=[local]_[emoji:2]_[hash:base64:5]!sass!postcss-loader'
 				]
 			}
 		]
